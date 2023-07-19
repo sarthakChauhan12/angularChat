@@ -1,0 +1,65 @@
+/* Beautified CSS code with added styles */
+
+/* Entire structure under one borderline */
+.container {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.username-container {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  /* margin-bottom: 10px; */
+  text-align: center;
+}
+
+.username-input {
+  width: 100%;
+  padding: 5px;
+}
+
+.messages-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 5px;
+  /* background-color: #f0f0f0; */
+  border-radius: 5px;
+}
+
+.message div:first-child {
+  margin-bottom: 5px;
+}
+
+.form {
+  display: flex;
+  border-top: 1px solid #ccc; /* Line between form and messages */
+  padding-top: 10px;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.message-input:focus {
+  outline: none;
+  border: 1px solid #aaa;
+}
+
+/* Additional CSS for message alignment */
+.current-user {
+  /* Adjust alignment for the current user's messages */
+  margin-left: auto;
+  text-align: right;
+  /* background-color: #d3edfa; */
+}

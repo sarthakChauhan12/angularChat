@@ -1,0 +1,9 @@
+<form #loginForm="ngForm" (ngSubmit)="loginUser(loginForm.value)">
+    <input type="text" required name="name" placeholder="Enter Name" ngModel />
+    <br /> 
+    <br />
+    <input type="text" name="roomId" required placeholder="Enter Room Id" ngModel />
+    <br />
+    <br />
+    <button>Join Room</button>
+  </form>
